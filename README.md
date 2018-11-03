@@ -1,13 +1,19 @@
-# Game of Thrones Super Clicker
+# clicky-game
 
-This is a click based memory game running built with React.
+This app is a front-end game built with React.js. The goal is to click on each Game of Thornes character GIF only one time. There are 12 total GIFs that shuffle automatically on each click, making it more difficult for to remember which cards have not been clicked.
 
-Play the game at https://justinsmith-fullstackdev.github.io/click-game/
-
-1. The Goal is to ensure you don't click on the same image twice!!
-2. Every time an image is clicked, the images shuffle themselves in a random order.
-
-3. The user's score is reset after an incorrect guess.
+## Visit the site
 
 
-Justin Smith 2018
+
+## How it works
+* The user begins the game by clicking on a Character GIF
+* After each click, React will shuffle the cards using an NPM package called Shuffle-Array and check if the user has selected theGIF before
+* If they have, it will trigger an end game condition
+* If they have not, it will increase the current score
+* Upon game end, the app will update your highest score and reset the current score
+
+## Technologies used
+* React JS
+
+
